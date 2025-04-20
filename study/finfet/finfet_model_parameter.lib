@@ -1,0 +1,43 @@
+.model nmos nmos
++ version = 4.8.0
++ lint = 1e-9
++ nch = 1.7e17
++ vth0 = 0.4
++ u0 = 0.067
++ ua = 2.25e-9
++ ub = 5.87e-19
++ uc = -0.0465
++ vsat = 1.62e5
++ a0 = 1
++ ags = 0.272
++ b0 = 0.6
++ b1 = 0.05
++ keta = -0.047
++ dwg = 5e-9  * 핀 폭 변화량 (게이트 폭)
++ lwg = 5e-9  * 핀 폭 변화량 (채널 길이)
++ nfin = 1    * 기준 핀 개수 (모델 스케일링에 사용될 수 있음)
++ wfin = 7e-9 * 핀 폭
++ hfin = 30e-9 * 핀 높이
++ tfin = 7e-9 * 핀 두께
+
+.model pmos pmos
++ version = 4.8.0
++ lint = 1e-9
++ pch = 4e17
++ vth0 = -0.45
++ u0 = 0.027
++ ua = 4.35e-9
++ ub = 1.67e-18
++ uc = -0.0465
++ vsat = 1.12e5
++ a0 = 0.8
++ ags = 0.3
++ b0 = 0.7
++ b1 = 0.06
++ keta = -0.05
++ dwg = 5e-9
++ lwg = 5e-9
++ nfin = 1
++ wfin = 7e-9
++ hfin = 30e-9
++ tfin = 7e-9
